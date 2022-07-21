@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="1" name="Test">
+  <parameter name="U"  value="Admin" ></parameter>
+  <parameter name="P"  value="admin123"></parameter>
+  <classes>
+      <class name="Utilities.XML"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  <test thread-count="1" name="Test1">
+  <parameter name="U"  value="sonal" ></parameter>
+  <parameter name="P"  value="sonal123"></parameter>
+  <classes>
+      <class name="Utilities.XML"/>
+    </classes>
+  </test> <!-- Test -->
+  
+   <test thread-count="1" name="Test2">
+  <parameter name="U"  value="Ad" ></parameter>
+  <parameter name="P"  value="ad123"></parameter>
+  <classes>
+      <class name="Utilities.XML"/>
+    </classes>
+  </test> <!-- Test -->
+  
+   <test thread-count="1" name="Test3">
+  <parameter name="U"  value="min" ></parameter>
+  <parameter name="P"  value="min123"></parameter>
+   <classes>
+      <class name="Utilities.XML"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
